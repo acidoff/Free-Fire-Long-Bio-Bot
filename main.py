@@ -14,8 +14,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', '')
-API_KEY = os.getenv('API_KEY', '')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8688220020:AAEjZcpp1e8x1xMP6N0W6rn2IJeeUStjeLM')
+API_KEY = os.getenv('API_KEY', 'paglu_dev')
 API_BASE_URL = 'https://bio.ffutils.tech/api/update_bio'
 OWNER_USERNAME = '@MS_P4NL_ADMIN'
 REQUIRED_CHANNEL = '@MURSHALIM_ADMIN'
